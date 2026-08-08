@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+*.pyo
+build/
+logs/
+*.spec
+*.egg-info/
+.eggs/
+*.log
+.env
+venv/
+.venv/
+
+# 构建产物不提交到仓库，通过 Release 分发
+dist/

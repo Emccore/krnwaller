@@ -1,0 +1,20 @@
+# krnwaller 核心依赖
+# 安装命令: pip install -r requirements.txt
+
+# 图形界面
+PyQt5>=5.15.0
+PyQtChart>=5.15.0
+
+# 网络抓包与协议解析（可选但强烈推荐）
+# Windows 上需要额外安装 Npcap 或 WinPcap 驱动
+scapy>=2.4.5
+
+# pcap 后端（可选，比 scapy 更轻量）
+# Windows/Linux 均可使用，需 libpcap 开发库
+# pypcap>=1.2.3
+
+# Windows 内核层过滤（可选，生产环境推荐）
+# pydivert>=2.1.0
+
+# 工具库
+ipaddress; python_version < "3.3"

@@ -1,0 +1,48 @@
+{
+  "version": "1.0",
+  "engine": {
+    "worker_threads": 4,
+    "queue_size": 20000,
+    "max_connections": 65536,
+    "enable_state_track": true,
+    "enable_logger": true
+  },
+  "protection": {
+    "syn_flood": {
+      "enabled": true,
+      "threshold": 200,
+      "window": 1.0,
+      "block_duration": 300
+    },
+    "port_scan": {
+      "enabled": true,
+      "port_threshold": 20,
+      "window": 10.0,
+      "block_duration": 600
+    },
+    "arp_spoof": {
+      "enabled": true
+    },
+    "icmp_flood": {
+      "enabled": true,
+      "threshold": 500,
+      "window": 1.0
+    }
+  },
+  "logging": {
+    "level": "INFO",
+    "log_dir": "logs",
+    "keep_days": 30,
+    "max_size_mb": 50
+  },
+  "network": {
+    "interfaces": [],
+    "promiscuous": false,
+    "bpf_filter": "ip or ip6"
+  },
+  "ui": {
+    "theme": "dark",
+    "language": "zh_CN",
+    "minimize_to_tray": true
+  }
+}

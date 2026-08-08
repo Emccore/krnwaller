@@ -1,0 +1,182 @@
+{
+  "version": "1.0",
+  "saved_at": 1786209338.4714162,
+  "rules": [
+    {
+      "rule_id": "builtin-loopback",
+      "name": "允许回环接口",
+      "description": "",
+      "enabled": true,
+      "priority": 1,
+      "action": "accept",
+      "group": "基础安全",
+      "log_enabled": false,
+      "comment": "",
+      "src_ips": [
+        "127.0.0.1"
+      ],
+      "dst_ips": [],
+      "src_ports": [],
+      "dst_ports": [],
+      "protocols": [],
+      "directions": [],
+      "hit_count": 0,
+      "last_hit": 0.0
+    },
+    {
+      "rule_id": "rule-00001",
+      "name": "允许 SSH 远程管理",
+      "description": "放行 TCP 22 端口入站连接",
+      "enabled": true,
+      "priority": 20,
+      "action": "accept",
+      "group": "默认",
+      "log_enabled": false,
+      "comment": "",
+      "src_ips": [],
+      "dst_ips": [],
+      "src_ports": [],
+      "dst_ports": [
+        "22"
+      ],
+      "protocols": [
+        "tcp"
+      ],
+      "directions": [
+        "IN"
+      ],
+      "hit_count": 0,
+      "last_hit": 0.0
+    },
+    {
+      "rule_id": "rule-00002",
+      "name": "允许 DNS 查询",
+      "description": "放行 UDP/TCP 53 端口",
+      "enabled": true,
+      "priority": 20,
+      "action": "accept",
+      "group": "默认",
+      "log_enabled": false,
+      "comment": "",
+      "src_ips": [],
+      "dst_ips": [],
+      "src_ports": [],
+      "dst_ports": [
+        "53"
+      ],
+      "protocols": [
+        "udp",
+        "tcp"
+      ],
+      "directions": [
+        "IN",
+        "OUT"
+      ],
+      "hit_count": 31,
+      "last_hit": 1786209338.440226
+    },
+    {
+      "rule_id": "rule-00003",
+      "name": "允许 HTTP/HTTPS",
+      "description": "放行 Web 流量",
+      "enabled": true,
+      "priority": 20,
+      "action": "accept",
+      "group": "默认",
+      "log_enabled": false,
+      "comment": "",
+      "src_ips": [],
+      "dst_ips": [],
+      "src_ports": [],
+      "dst_ports": [
+        "80",
+        "443"
+      ],
+      "protocols": [
+        "tcp"
+      ],
+      "directions": [
+        "IN",
+        "OUT"
+      ],
+      "hit_count": 0,
+      "last_hit": 0.0
+    },
+    {
+      "rule_id": "rule-00004",
+      "name": "允许 ICMP Ping",
+      "description": "放行 ICMP 回显请求和响应",
+      "enabled": true,
+      "priority": 30,
+      "action": "accept",
+      "group": "默认",
+      "log_enabled": false,
+      "comment": "",
+      "src_ips": [],
+      "dst_ips": [],
+      "src_ports": [],
+      "dst_ports": [],
+      "protocols": [
+        "icmp"
+      ],
+      "directions": [],
+      "hit_count": 17,
+      "last_hit": 1786209337.9268756
+    },
+    {
+      "rule_id": "rule-00006",
+      "name": "阻止 NetBIOS",
+      "description": "阻止 137/138/139 端口",
+      "enabled": true,
+      "priority": 40,
+      "action": "drop",
+      "group": "默认",
+      "log_enabled": true,
+      "comment": "",
+      "src_ips": [],
+      "dst_ips": [],
+      "src_ports": [],
+      "dst_ports": [
+        "137",
+        "138",
+        "139"
+      ],
+      "protocols": [
+        "tcp",
+        "udp"
+      ],
+      "directions": [
+        "IN"
+      ],
+      "hit_count": 0,
+      "last_hit": 0.0
+    },
+    {
+      "rule_id": "rule-00005",
+      "name": "阻止 Telnet",
+      "description": "阻止不安全的 Telnet 明文连接",
+      "enabled": true,
+      "priority": 50,
+      "action": "drop",
+      "group": "默认",
+      "log_enabled": true,
+      "comment": "",
+      "src_ips": [],
+      "dst_ips": [],
+      "src_ports": [],
+      "dst_ports": [
+        "23"
+      ],
+      "protocols": [
+        "tcp"
+      ],
+      "directions": [
+        "IN"
+      ],
+      "hit_count": 0,
+      "last_hit": 0.0
+    }
+  ],
+  "blocked_ips": [],
+  "blocked_domains": []
+}
