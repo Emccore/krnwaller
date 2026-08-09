@@ -1,0 +1,183 @@
+{
+  "filename": "krnwallerCLI.exe",
+  "size": 18222536,
+  "chunk_size": 524288,
+  "num_chunks": 35,
+  "chunks": [
+    {
+      "path": "dist/krnwallerCLI_v1.part000",
+      "sha": "d100f756afac14aa329663ac0a97c40b50eaf0a9",
+      "size": 524288
+    },
+    {
+      "path": "dist/krnwallerCLI_v1.part001",
+      "sha": "aa7acd4d15373646615a699f8ad33b9c0ebd715e",
+      "size": 524288
+    },
+    {
+      "path": "dist/krnwallerCLI_v1.part002",
+      "sha": "9883ef17ea8e3f552581a829bb15ee3aa742c645",
+      "size": 524288
+    },
+    {
+      "path": "dist/krnwallerCLI_v1.part003",
+      "sha": "d52f22b3ba00f4d2159152899615f9d74bb135dc",
+      "size": 524288
+    },
+    {
+      "path": "dist/krnwallerCLI_v1.part004",
+      "sha": "145bc2a17a90b9d70f57489e0a520fdb0c4ec8a5",
+      "size": 524288
+    },
+    {
+      "path": "dist/krnwallerCLI_v1.part005",
+      "sha": "e6f40bc8e3b2d081f19c9f0e6bd64f6254c060e1",
+      "size": 524288
+    },
+    {
+      "path": "dist/krnwallerCLI_v1.part006",
+      "sha": "f94fe0a51b6fe5c6d058b2bc8fac3958ec270e05",
+      "size": 524288
+    },
+    {
+      "path": "dist/krnwallerCLI_v1.part007",
+      "sha": "5b283da18a5a48d6e9f08334d45f4e8a1ce6af26",
+      "size": 524288
+    },
+    {
+      "path": "dist/krnwallerCLI_v1.part008",
+      "sha": "30cc4728133d02d9fa51293df2826e45e49cae1c",
+      "size": 524288
+    },
+    {
+      "path": "dist/krnwallerCLI_v1.part009",
+      "sha": "2d06f25c60bec1c343589a621d06ed6e5017a80a",
+      "size": 524288
+    },
+    {
+      "path": "dist/krnwallerCLI_v1.part010",
+      "sha": "09d403e2ce13aef45a19c9ec508180d9f3f3c4f6",
+      "size": 524288
+    },
+    {
+      "path": "dist/krnwallerCLI_v1.part011",
+      "sha": "823a514e23c5c92d9d080e821e77a35835456919",
+      "size": 524288
+    },
+    {
+      "path": "dist/krnwallerCLI_v1.part012",
+      "sha": "254b6e065c18f275526a75ce02103b84d890c26a",
+      "size": 524288
+    },
+    {
+      "path": "dist/krnwallerCLI_v1.part013",
+      "sha": "07ebef38f13d3ddc78ea04e8e902c631efc34b09",
+      "size": 524288
+    },
+    {
+      "path": "dist/krnwallerCLI_v1.part014",
+      "sha": "45babaca88dcc3aee7359af9c36f28bdf54d303c",
+      "size": 524288
+    },
+    {
+      "path": "dist/krnwallerCLI_v1.part015",
+      "sha": "9d9ba5b631f0e0ab90eea8a5d58cc5d99e144ead",
+      "size": 524288
+    },
+    {
+      "path": "dist/krnwallerCLI_v1.part016",
+      "sha": "c998eaafb8b2598f70dc1f81694ec8918b8aa0de",
+      "size": 524288
+    },
+    {
+      "path": "dist/krnwallerCLI_v1.part017",
+      "sha": "fd0aafe89691155cda70204c8d60d15e9fd17528",
+      "size": 524288
+    },
+    {
+      "path": "dist/krnwallerCLI_v1.part018",
+      "sha": "358c954e83717188667ae2bdb567a9604c21f54f",
+      "size": 524288
+    },
+    {
+      "path": "dist/krnwallerCLI_v1.part019",
+      "sha": "ecbcdb2e0596057ff7fdb460a5abbe5f0a405b61",
+      "size": 524288
+    },
+    {
+      "path": "dist/krnwallerCLI_v1.part020",
+      "sha": "b905a7da7f63f3f6d3d4908081b63a77927cf242",
+      "size": 524288
+    },
+    {
+      "path": "dist/krnwallerCLI_v1.part021",
+      "sha": "bf1c04db950d5388c3e762018dc077e728fc76ca",
+      "size": 524288
+    },
+    {
+      "path": "dist/krnwallerCLI_v1.part022",
+      "sha": "de0ba71c99a926686464accfe8efe50e58adfb96",
+      "size": 524288
+    },
+    {
+      "path": "dist/krnwallerCLI_v1.part023",
+      "sha": "71590dedbca942b0cff21a35cb5c25afb0a4ee4b",
+      "size": 524288
+    },
+    {
+      "path": "dist/krnwallerCLI_v1.part024",
+      "sha": "ceeb918d07816d441363dbb11aff969cc0b69214",
+      "size": 524288
+    },
+    {
+      "path": "dist/krnwallerCLI_v1.part025",
+      "sha": "5e29afc67339775594f95dc62780ac460c138b8e",
+      "size": 524288
+    },
+    {
+      "path": "dist/krnwallerCLI_v1.part026",
+      "sha": "5c5ef47ff2208b9ff7298f987b8d0d17c7c895e7",
+      "size": 524288
+    },
+    {
+      "path": "dist/krnwallerCLI_v1.part027",
+      "sha": "579d09501fd57d9aa03f7c9bbd47c3d8eef6b819",
+      "size": 524288
+    },
+    {
+      "path": "dist/krnwallerCLI_v1.part028",
+      "sha": "f711f94ea77736dc1bf1e21ce8e339389c5582c1",
+      "size": 524288
+    },
+    {
+      "path": "dist/krnwallerCLI_v1.part029",
+      "sha": "8c48f36453747c58bf85673b9dd8d3c444be2e73",
+      "size": 524288
+    },
+    {
+      "path": "dist/krnwallerCLI_v1.part030",
+      "sha": "80108f948d46c382df4a3461a7f67b5e648b1a57",
+      "size": 524288
+    },
+    {
+      "path": "dist/krnwallerCLI_v1.part031",
+      "sha": "35c9a18c7028323b13edf1ddcd40d66af668cfe0",
+      "size": 524288
+    },
+    {
+      "path": "dist/krnwallerCLI_v1.part032",
+      "sha": "ffe5acc21bdc151c4748743a0a1331c4cd5c52c5",
+      "size": 524288
+    },
+    {
+      "path": "dist/krnwallerCLI_v1.part033",
+      "sha": "b09aa3ba70e8d1998fbf9e4398c6747f2065cf23",
+      "size": 524288
+    },
+    {
+      "path": "dist/krnwallerCLI_v1.part034",
+      "sha": "50c6d27d3a2210305fb42fa94cf9e1ecb7783565",
+      "size": 396744
+    }
+  ]
+}
